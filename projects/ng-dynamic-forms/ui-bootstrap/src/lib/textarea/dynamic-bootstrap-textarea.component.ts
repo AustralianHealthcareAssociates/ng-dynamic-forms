@@ -6,7 +6,7 @@ import {
     DynamicFormLayoutService,
     DynamicFormValidationService,
     DynamicTextAreaModel
-} from "@ng-dynamic-forms/core";
+} from "../../../../ng-dynamic-forms";
 
 @Component({
     selector: "dynamic-bootstrap-textarea",

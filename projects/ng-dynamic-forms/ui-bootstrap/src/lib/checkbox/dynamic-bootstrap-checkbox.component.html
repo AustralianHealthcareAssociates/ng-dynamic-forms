@@ -1,6 +1,6 @@
 <div [formGroup]="group" [class.disabled]="model.disabled" [ngClass]="getClass('element', 'control') || 'checkbox'">
 
-    <label>
+    <label class="inp-container">
 
         <input type="checkbox"
                [checked]="model.checked"
@@ -14,6 +14,7 @@
                [value]="model.value"
                (blur)="onBlur($event)"
                (change)="onChange($event)"
-               (focus)="onFocus($event)"/><span [innerHTML]="model.label"
-                                                [ngClass]="[getClass('element', 'label'), getClass('grid', 'label')]"></span></label>
+               (focus)="onFocus($event)"/>
+               <span class="checkmarkstyle"></span>
+               <span [innerHTML]="model.label" [ngClass]="[getClass('element', 'label'), getClass('grid', 'label')]"></span></label>
 </div>

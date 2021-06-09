@@ -10,12 +10,13 @@
 
     <div *ngFor="let option of model.options$ | async" [ngClass]="getClass('element', 'option') || 'radio'">
 
-        <label><input type="radio"
+        <label class="container-radio"><input type="radio"
                       [formControlName]="model.id"
                       [name]="model.name"
                       [value]="option.value"
                       (blur)="onBlur($event)"
-                      (focus)="onFocus($event)"/><span [innerHTML]="option.label"></span></label>
+                      (focus)="onFocus($event)"/><span class="checkmark-radio"></span>
+                      <span [innerHTML]="option.label"></span></label>
     </div>
 
 </fieldset>

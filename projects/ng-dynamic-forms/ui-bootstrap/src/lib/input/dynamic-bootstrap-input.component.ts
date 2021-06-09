@@ -6,7 +6,7 @@ import {
     DynamicFormLayoutService,
     DynamicFormValidationService,
     DynamicInputModel
-} from "@ng-dynamic-forms/core";
+} from "../../../../ng-dynamic-forms";
 
 @Component({
     selector: "dynamic-bootstrap-input",

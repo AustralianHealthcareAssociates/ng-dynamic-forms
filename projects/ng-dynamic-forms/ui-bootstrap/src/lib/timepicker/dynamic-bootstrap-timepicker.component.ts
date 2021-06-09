@@ -7,7 +7,7 @@ import {
     DynamicFormLayoutService,
     DynamicFormValidationService,
     DynamicTimePickerModel
-} from "@ng-dynamic-forms/core";
+} from "../../../../ng-dynamic-forms";
 
 @Component({
     selector: "dynamic-bootstrap-timepicker",

@@ -8,7 +8,7 @@ import {
     DynamicFormLayout,
     DynamicFormLayoutService,
     DynamicFormValidationService
-} from "@ng-dynamic-forms/core";
+} from "../../../../ng-dynamic-forms";
 
 @Component({
     selector: "dynamic-bootstrap-datepicker",

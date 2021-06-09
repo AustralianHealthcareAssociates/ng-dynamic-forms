@@ -36,7 +36,7 @@ import {
     DynamicFormRelationService,
     DynamicFormValidationService,
     DynamicTemplateDirective
-} from "@ng-dynamic-forms/core";
+} from "../../../ng-dynamic-forms";
 import { DynamicBootstrapCheckboxComponent } from "./checkbox/dynamic-bootstrap-checkbox.component";
 import { DynamicBootstrapDatePickerComponent } from "./datepicker/dynamic-bootstrap-datepicker.component";
 import { DynamicBootstrapFormArrayComponent } from "./form-array/dynamic-bootstrap-form-array.component";
@@ -129,4 +129,5 @@ export function bootstrapUIFormControlMapFn(model: DynamicFormControlModel): Typ
         default:
             return null;
     }
+
 }
